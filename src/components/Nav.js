@@ -23,14 +23,32 @@ function Nav({ currentPage, handlePageChange }) {
                         <img src='images/logo.png' alt='Scott Everett logo' width='150px'></img>
                     </a>
                 </div>
-                <div className="col-2 d-flex justify-content-end">
-                    <a href="#portfolio" style={styles.links} onClick={() => handlePageChange('Portfolio')}>portfolio</a>
+                <div className="col-2 d-flex justify-content-center">
+                    <a href="#portfolio"
+                        style={styles.links}
+                        onClick={() => handlePageChange('Portfolio')}
+                        className={currentPage === 'Portfolio' ? 'nav-link-active' : 'nav-link'}
+                        >
+                        portfolio
+                    </a>
                 </div>
-                <div className="col-2 d-flex justify-content-end">
-                <a href="#about" style={styles.links} onClick={() => handlePageChange('About')}>about</a>
+                <div className="col-2 d-flex justify-content-center">
+                    <a href="#about"
+                        style={styles.links}
+                        onClick={() => handlePageChange('About')}
+                        className={currentPage === 'About' ? 'nav-link-active' : 'nav-link'}
+                        >
+                        about
+                    </a>
                 </div>
-                <div className="col-2 d-flex justify-content-end">
-                <a href="#contact" style={styles.links} onClick={() => handlePageChange('Contact')}>contact</a>
+                <div className="col-2 d-flex justify-content-center">
+                    <a href="#contact"
+                        style={styles.links}
+                        onClick={() => handlePageChange('Contact')}
+                        className={currentPage === 'Contact' ? 'nav-link-active' : 'nav-link'}
+                        >
+                        contact
+                    </a>
                 </div>
             </div>
             <hr className='custom-hr'></hr>

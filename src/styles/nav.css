@@ -2,6 +2,10 @@
     display: none;
 }
 
+.nav-link-active {
+    font-weight: 900;
+}
+
 @media (min-width: 768px) {
     .custom-nav {
         padding-left: 10%;
