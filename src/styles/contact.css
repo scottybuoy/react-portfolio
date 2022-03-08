@@ -1,0 +1,23 @@
+#contact-form {
+    margin-top: 50px;
+}
+
+#contact-button {
+    border: none;
+    padding: 10px;
+    width: 90px;
+    border-radius: 10px;
+    background-color: rgb(139, 139, 139);
+    color: white;
+}
+
+#error-message {
+    font-style: italic;
+    color:rgb(161, 161, 161);
+}
+
+/* .form-div {
+    background-color: rgb(221, 221, 221);
+    padding: 50px;
+    border-radius: 10px;
+} */

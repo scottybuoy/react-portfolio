@@ -1,0 +1,17 @@
+.custom-hr {
+    display: none;
+}
+
+@media (min-width: 768px) {
+    .custom-nav {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    .custom-hr {
+        display: block;
+        padding: 0;
+        margin: 0;
+    }
+    
+}
